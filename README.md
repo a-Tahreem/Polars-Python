@@ -28,6 +28,10 @@ Ce projet explore l'utilisation de la bibliothèque **Polars** pour le traitemen
 
 ---
 
+## Pré-requis
+
+Avant de lancer le script : **Téléchargez le fichier `kinases.csv`** et placez-le dans le même dossier que le fichier **`polars.ipynb`**.
+
 ## Excution 
 
 1. Clonez le dépôt :
@@ -42,6 +46,10 @@ Ce projet explore l'utilisation de la bibliothèque **Polars** pour le traitemen
    ```bash
     jupyter notebook polars.ipynb
 
+## Résultats
+
+Polars est nettement plus rapide et plus efficace en mémoire que Pandas, en particulier pour les grands ensembles de données.
+Offre une syntaxe claire et des opérations parallélisées, ce qui le rend idéal pour des workflows de données à grande échelle.
 
 
 
